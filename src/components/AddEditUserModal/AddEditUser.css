@@ -1,0 +1,66 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.form-modal {
+  background: var(--white);
+  border-radius: 5px;
+  width: 60%;
+  max-width: 400px;
+  height: inherit;
+  padding: 20px;
+}
+
+.add-edit-user-form {
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.form__title {
+  font-size: 14px;
+  /* font-weight: bold; */
+  color: var(--dark-gray);
+  margin-bottom: 10px;
+}
+.add-edit-user-form__lable,
+.form-options {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: var(--dark-gray);
+}
+
+.custom-input-field {
+  height: 30px;
+  border-radius: 3px;
+  border: 0.5px solid var( --extra-light-gray); 
+  border-color: var( --extra-light-gray);
+}
+.add-edit-user-form__field {
+  margin-bottom: 15px;
+}
+
+.custom-width {
+  width: 100%;
+}
+
+.form-buttons {
+  gap: 5px;
+  display: flex;
+}
+.input-error {
+  border-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}

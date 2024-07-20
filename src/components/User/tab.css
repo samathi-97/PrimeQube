@@ -1,0 +1,9 @@
+/* custom-styles.css */
+.col{
+    color: #657786 !important; 
+}
+.ant-tabs-tab {
+    color: #657786 !important; /* Default tab text color */
+  }
+  
+  

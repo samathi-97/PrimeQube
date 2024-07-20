@@ -1,0 +1,21 @@
+
+.custom-btn {
+  height: 36px;
+  width: 100%; 
+  max-width: 100%;
+  border: 0.5px solid ; 
+  /* border-width: 1px; */
+  border-radius: 5px;
+}
+.custom-btn-primary {
+  color: var(--white);
+  max-width: 365px; 
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.custom-btn-secondry {
+  color: var(--dark-gray);
+  max-width: 84px;
+  background-color: var(--white);
+  border-color:var(--dark-gray);
+}

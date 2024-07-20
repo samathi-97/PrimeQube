@@ -1,0 +1,20 @@
+.user-management-containe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 10px; /* Optional: add some padding to the container */
+    flex-wrap: nowrap; /* Prevent wrapping */
+}
+.user-management-title{
+    font-size: 16px;
+    color: #1677ff;
+    font-weight: bold;
+}
+.tab-component-container{
+   
+    background-color: #FFFFFF
+    ;
+}
+.user-managementt-containe div {
+    flex-shrink: 0; /* Prevent shrinking */
+}
